@@ -1,5 +1,3 @@
 public interface Trabajador {
-    public void realizarTarea(){
-
-    }
+    public void realizarTarea();
 }
