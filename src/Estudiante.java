@@ -1,6 +1,11 @@
 public class Estudiante extends Persona{
     private Integer grado;
 
+    public Estudiante(String nombre, Integer edad, Integer fechaNacimiento, Integer grado) {
+        super(nombre, edad, fechaNacimiento);
+        this.grado = grado;
+    }
+
     public Integer getGrado() {
         return grado;
     }
